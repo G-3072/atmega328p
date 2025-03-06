@@ -3,12 +3,12 @@ set(TARGET_NAME atmega328p)
 add_executable(${TARGET_NAME})
 
 target_sources(${TARGET_NAME} PRIVATE
-    src/main.c
     src/startup_atmega328p.c
+    src/main.c
 )
 
 target_link_libraries(${TARGET_NAME} PRIVATE
-    atmega328p-HAL
+    HAL
 )
 
 add_custom_command(TARGET ${TARGET_NAME} POST_BUILD

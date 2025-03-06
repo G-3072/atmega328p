@@ -37,7 +37,7 @@
                 "-b",
                 "115200",
                 "-U",
-                "flash:w:/home/gasc/work/arduino/atmega328p/build/package/main/arduino-bare-metal.hex:i"
+                "flash:w:${workspaceFolder}/build/package/main/atmega328p.hex:i"
             ],
             "dependsOn": ["buildProject"]
 

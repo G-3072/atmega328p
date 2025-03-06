@@ -1,4 +1,4 @@
-set(TARGET_NAME atmega328p-HAL)
+set(TARGET_NAME HAL)
 
 add_library(${TARGET_NAME})
 

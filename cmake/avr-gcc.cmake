@@ -16,4 +16,4 @@ set(CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY)
 
 set(CMAKE_C_FLAGS "-mmcu=${MCU} -Os -DF_CPU=${F_CPU}")
 
-set(CMAKE_EXE_LINKER_FLAGS "-T ${CMAKE_SOURCE_DIR}/ATMega328p.ld -nostartfiles ")
+set(CMAKE_EXE_LINKER_FLAGS "-T ${CMAKE_SOURCE_DIR}/atmega328p.ld -nostartfiles ")
